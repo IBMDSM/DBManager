@@ -1,0 +1,4 @@
+From codingtony/impala
+RUN apt-get install net-tools -y
+ADD start-daemon.sh /
+ENTRYPOINT ["/start-daemon.sh"]
